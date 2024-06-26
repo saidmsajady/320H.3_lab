@@ -66,3 +66,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+h2 {
+  color: rgb(31, 194, 31);
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+hr {
+  color: blue;
+}

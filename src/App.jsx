@@ -70,12 +70,12 @@ function App() {
     return (
         <div>
             {learnerData.learners.map((learner, index) => (
-                <Learner 
-                    key={index} 
-                    name={learner.name} 
-                    bio={learner.bio} 
-                    scores={learner.scores} 
-                />
+              <Learner 
+                  key={index} 
+                  name={learner.name} 
+                  bio={learner.bio} 
+                  scores={learner.scores} 
+              />
             ))}
         </div>
     );
